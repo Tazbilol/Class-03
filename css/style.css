@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+font size: 14px;
+ line-height: 1.7em;
+ height: 1400px;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+
+a.{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background: green;
+	margin: 40px 670px;
+	position: relative;
+
+}
+.black{
+	width: 200px;
+	height: 200px;
+	background: black;
+	position: fixed;
+	top: 5%;
+	left: 5%;
+}
+.red{
+	width: 120px;
+	height: 120px;
+	background: red;
+	border-radius: 100px;
+	position: absolute;
+	top: 82px;
+	left: 240px;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -5px;
+}
+.insta{
+	width: 150px;
+	position: fixed;
+	top: 48%;
+	right: -100px;
+	transition: 1s;	
+}
+
+.insta:hover{
+	right: -5px;
+}
+
+.what{
+	width: 350px;
+	position: fixed;
+	top: 55%;
+	right: -300px;
+	transition: .5s;
+}
+.what:hover{
+	right: -5px;
+}
+.social-icons{
+	width: 100%;
+	padding: 50px 0px;
+	text-align: center;
+}
+.social-icons li{
+	list-style-type: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	font-size: 35px;
+	margin: 0px 12px;
+	transition: 1s;
+}
+
+.social-icons li a .fa-facebook{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #1299F6;
+	color: #fff;
+	border: 1px solid black;
+}
+.social-icons li a .fa-twitter{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #FFFFFF;
+	color: #1DA1F2;
+	border: 1px solid black;
+}
+.social-icons li a .fa-linkedin{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #0077B5;
+	color: #fff;
+	border: 1px solid black;
+}
+.social-icons li a .fa-google{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #fff;
+	color: #E94235;
+	border: 1px solid black;
+}
+.social-icons li a .fa-twitch{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #8D44F7;
+	color: #fff;
+	border: 1px solid black;
+}
+.social-icons li a .fa-telegram{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #0077B5;
+	color: #fff;
+	border: 1px solid black;
+}
+.social-icons li a .fa-snapchat{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #F2D400;
+	color: #fff;
+	border: 1px solid black;
+}
